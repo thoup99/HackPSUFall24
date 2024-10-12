@@ -1,0 +1,20 @@
+- !<AssetImportMetadata/4b72479b-6c63-4a85-9eba-c99b029cb104>
+  ImportedAssetIds:
+    .hidden/Scroll View Background: !<reference> f50f9db3-2e7b-49b1-a3cc-5bfdd8abdbb9
+    Base Rect Panel: !<reference> c3a9142a-64ed-4b52-996d-ca139fd88932
+    DestructionHelper_100: !<reference> 6f37e996-0313-4e7d-a1c1-ea22ccdd2b36
+    EventModule_101: !<reference> c4c8280a-b0f8-411e-82a0-fadf58fcb320
+    Scroll View Background: !<reference> bbe8ea4a-f186-441b-be24-b674d85925ed
+    Scroll View Background|Scroll View Background|GraphPassInfo: !<reference> f231350c-4c1e-4829-9556-13ce70dcc222
+    UI Scroll View/UI Scroll View: !<reference> 9c3bc62d-574a-4ddc-99bd-5a7079bd77b5
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> 9c3bc62d-574a-4ddc-99bd-5a7079bd77b5
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings/d3bc5f83-8683-494c-babf-7e6a2a3e4a9f>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
