@@ -6,6 +6,7 @@
     - !<own> 597f6fa4-23e5-4230-9e74-1ece142cd000
     - !<own> 9876b5ac-bdbb-4d76-8eca-3303d127cd4d
     - !<own> 6ce872ab-b97f-47cd-b3b5-9fd1d5427ded
+    - !<own> 7409712b-ede2-4b52-9586-4b607864768c
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -273,6 +274,21 @@
     []
   Components:
     - !<own> c008992d-99eb-45d6-b9b5-22e9d24cec4b
+- !<SceneObject/37dcf7fe-12b5-4df5-8e0e-066ad34b7294>
+  PrefabRemaps:
+    []
+  Name: "ChatGPT Demo [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 633247d7-bec4-4140-8b19-00fced34ee48
 - !<SceneObject/4642589a-75f7-4f90-a0b6-4095339940dc>
   PrefabRemaps:
     []
@@ -679,6 +695,22 @@
     - !<own> ccfcd7b3-7092-44cb-a951-e8f477545426
   Components:
     []
+- !<ScriptComponent/633247d7-bec4-4140-8b19-00fced34ee48>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Demo
+  Enabled: true
+  ScriptAsset: !<reference> 9a47f0cf-9f79-491b-92b5-e077fdaad7ca
+  ScriptInputsDefault:
+    question: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      question: "What are some ideas for Lenses?"
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/6a314a3e-2266-4e96-8f18-06589901e5e2>
   PrefabRemaps:
     []
@@ -744,6 +776,24 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/7409712b-ede2-4b52-9586-4b607864768c>
+  PrefabRemaps:
+    - 37dcf7fe-12b5-4df5-8e0e-066ad34b7294: 2af71f84-f204-48f0-ad66-b8cac9853c27
+    - 633247d7-bec4-4140-8b19-00fced34ee48: a02e8f95-35d8-4db8-81cc-ae12336d7d09
+    - 7409712b-ede2-4b52-9586-4b607864768c: 3705b014-cfba-4322-9214-19325785a462
+    - f6480f12-f6f4-421b-8615-0d684fed6ffa: 4ad44545-22cc-4680-bc5a-a181ee3b3608
+  Name: ChatGPT Helper
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 37dcf7fe-12b5-4df5-8e0e-066ad34b7294
+  Components:
+    - !<own> f6480f12-f6f4-421b-8615-0d684fed6ffa
 - !<SceneObject/9876b5ac-bdbb-4d76-8eca-3303d127cd4d>
   PrefabRemaps:
     []
@@ -976,6 +1026,22 @@
   Name: ConfigurationValidator
   Enabled: true
   ScriptAsset: !<reference> 5249534b-e5e3-494c-afad-124a32012655
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/f6480f12-f6f4-421b-8615-0d684fed6ffa>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Helper
+  Enabled: true
+  ScriptAsset: !<reference> e93f6e7e-2200-44a8-b13e-f436f3828817
   ScriptInputsDefault:
     {}
   ScriptTypesDefault:

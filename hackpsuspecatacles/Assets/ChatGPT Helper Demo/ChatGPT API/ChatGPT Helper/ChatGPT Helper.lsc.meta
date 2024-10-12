@@ -1,0 +1,15 @@
+- !<AssetImportMetadata/c17edec1-a5e7-42fd-b63c-f35afbd5710d>
+  ImportedAssetIds:
+    ChatGPT API/ChatGPT Helper/ChatGPT: !<reference> 15c424a4-e1cf-4a58-86fa-dd5a9a16c169
+    ChatGPT API/ChatGPT Helper/ChatGPT Helper: !<reference> e93f6e7e-2200-44a8-b13e-f436f3828817
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> e93f6e7e-2200-44a8-b13e-f436f3828817
+  PackageType: LegacyPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings/47c57e6f-bbab-4386-8703-cd1e284c8e6d>
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

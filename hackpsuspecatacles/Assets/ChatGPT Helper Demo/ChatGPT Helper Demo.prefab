@@ -1,0 +1,68 @@
+- !<ObjectPrefab/ebae4650-5b54-4ebd-a2f7-a6e1b990cd97>
+  PackagePath: ""
+  objects:
+    - !<own> 3705b014-cfba-4322-9214-19325785a462
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/2af71f84-f204-48f0-ad66-b8cac9853c27>
+  PrefabRemaps:
+    []
+  Name: "ChatGPT Demo [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a02e8f95-35d8-4db8-81cc-ae12336d7d09
+- !<SceneObject/3705b014-cfba-4322-9214-19325785a462>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Helper
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2af71f84-f204-48f0-ad66-b8cac9853c27
+  Components:
+    - !<own> 4ad44545-22cc-4680-bc5a-a181ee3b3608
+- !<ScriptComponent/4ad44545-22cc-4680-bc5a-a181ee3b3608>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Helper
+  Enabled: true
+  ScriptAsset: !<reference> e93f6e7e-2200-44a8-b13e-f436f3828817
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/a02e8f95-35d8-4db8-81cc-ae12336d7d09>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Demo
+  Enabled: true
+  ScriptAsset: !<reference> 9a47f0cf-9f79-491b-92b5-e077fdaad7ca
+  ScriptInputsDefault:
+    question: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      question: "What are some ideas for Lenses?"
+  ScriptTypes:
+    "":
+      {}
